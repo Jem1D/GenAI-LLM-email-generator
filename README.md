@@ -59,19 +59,6 @@ Project,Techstack,Description,Link
 ...
 ⚠️ Projects with missing or placeholder links ("#") will be excluded from the generated email.
 
-📁 File Structure
-├── app/
-│   └── resource/
-│       └── my_portfolio.csv         # Resume-based portfolio data
-│       └── architecture.png         # Flowchart used in README
-├── chains.py                        # LangChain LLM logic
-├── portfolio.py                     # Portfolio matching and ChromaDB setup
-├── main.py                          # Streamlit app logic
-├── scrape.py                        # Playwright + BeautifulSoup scraping
-├── utils.py                         # Text cleaner
-├── requirements.txt                 # Python dependencies
-├── .env.example                     # Sample environment variables
-
 
 ✨ Features
 ✅ Extracts real-time job data from live career pages
