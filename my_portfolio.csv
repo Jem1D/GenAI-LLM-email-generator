@@ -1,0 +1,9 @@
+Project,Techstack,Description,Link
+"Cloud-Based ETL Pipeline","AWS, Apache Airflow, EC2, Glue, Redshift","Built a cloud-based ETL pipeline using Apache Airflow to process weather data and load it into Redshift for analytics.","#"
+"Satellite Image Segmentation","U-Net, ResNet18, Python, Deep Learning","Segmented and classified solar panel regions from PV satellite imagery using deep learning models, achieving high Dice score and accuracy.","https://colab.research.google.com/drive/1hTUcIoFO_h4lJJdk7xFUoK2EcVP2qOzs#scrollTo=5RN8Vr8TiTAY"
+"EDM Surface Inspection","KNN, Machine Learning, Python","Predicted surface roughness of EDM materials using KNN regression with high R² and low MSE.","https://link.springer.com/chapter/10.1007/978-981-97-3173-2_11"
+"CPU Scheduling Simulator","JavaScript, HTML, CSS","Created an interactive CPU scheduling visualizer with Gantt chart support and process metric calculations.","https://jeminbutani.github.io/CpuScheduling/"
+"React.js Company Website","React, Node.js, Contentful, Azure","Built a responsive 10+ page company website with optimized load times and API integration for a tech firm.","https://aasmatech.com/"
+"ABHA API Integration","Python, Flask, Node.js","Developed a reusable API wrapper for Indian healthcare APIs and unified Python/Node.js backends for better compliance.","https://jemil-portfolio.vercel.app/"
+"Role-based Auth + Payments","MongoDB, Mongoose, Node.js, Stripe","Built a role-based authentication system with Stripe payments, enhancing backend scalability and security.","hhttps://github.com/Jem1D/Online_Shop_NodeJS"
+"Food Delivery Data Analysis","Python, Pandas, Seaborn, Matplotlib","Performed EDA on food delivery data to identify delivery patterns, optimize delivery time, and derive business insights.","https://github.com/Jem1D/Food_delivery_analysis"
