@@ -40,16 +40,21 @@ This project is designed to help job seekers automatically generate personalized
 ### 1. Clone the repository
 git clone https://github.com/your-username/cold-email-generator.git
 cd cold-email-generator
-2. Install dependencies
+
+### 2. Install dependencies
 
 pip install -r requirements.txt
 playwright install
-3. Set up environment variables
+
+### 3. Set up environment variables
 Create a .env file in the root directory:
 
 GROQ_API_KEY=your_groq_api_key_here
-4. Start the app
+
+### 4. Start the app
 streamlit run main.py
+
+
 🗃️ Project Portfolio Format
 Your project data should be stored in app/resource/my_portfolio.csv with the following format:
 
@@ -57,10 +62,12 @@ Project,Techstack,Description,Link
 "Cloud-Based ETL Pipeline","AWS, Apache Airflow, EC2, Glue, Redshift","Built a cloud-based ETL pipeline using Apache Airflow to process weather data and load it into Redshift for analytics.","https://jemil-portfolio.vercel.app/"
 "Food Delivery Analysis","Python, Pandas, Seaborn","Performed EDA on delivery data to uncover insights about delivery times and patterns.","https://github.com/Jem1D/Food_delivery_analysis"
 ...
+
 ⚠️ Projects with missing or placeholder links ("#") will be excluded from the generated email.
 
 
 ✨ Features
+
 ✅ Extracts real-time job data from live career pages
 
 ✅ Uses your resume projects to generate relevant emails
@@ -77,10 +84,11 @@ Project,Techstack,Description,Link
 🔗 [LinkedIn](https://www.linkedin.com/in/jemil-dharia-731b58200/)
 
 🪄 Future Enhancements
+
   Resume parser and keyword highlighter
-
+  
   Export email to PDF
-
+  
   Multiple email tone options
-
+  
   Cover letter generator mode
