@@ -17,7 +17,7 @@ This project is designed to help job seekers automatically generate personalized
 
 ## 🏗️ Architecture
 
-![Architecture Flowchart](app/resource/architecture.png)
+![Architecture Flowchart](imgs/architecture.png)
 
 ---
 
@@ -84,17 +84,15 @@ Project,Techstack,Description,Link
 ✅ Fully open-source and customizable
 
 📬 Contact
-Built with ❤️ by Jemil Dharia
 📧 dhariajemil@gmail.com
-🌐 Portfolio
-🔗 LinkedIn
-🐙 GitHub
+🌐 [Portfolio](https://jemil-portfolio.vercel.app/)
+🔗 [LinkedIn](https://www.linkedin.com/in/jemil-dharia-731b58200/)
 
 🪄 Future Enhancements
-Resume parser and keyword highlighter
+  Resume parser and keyword highlighter
 
-Export email to PDF
+  Export email to PDF
 
-Multiple email tone options
+  Multiple email tone options
 
-Cover letter generator mode
+  Cover letter generator mode
