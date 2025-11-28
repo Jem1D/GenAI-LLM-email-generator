@@ -1,10 +1,10 @@
-# 🎯 AI-Powered Cold Email Generator for Job Seekers
+# AI-Powered Cold Email Generator for Job Seekers
 
 This project is designed to help job seekers automatically generate personalized cold emails tailored to job postings. Built with LangChain, Groq LLM, Playwright, Streamlit, and ChromaDB, it leverages a resume-based project portfolio to intelligently match relevant experience with job listings and craft professional emails in seconds.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **User pastes a job listing URL** (e.g., from LinkedIn, Adobe Careers, etc.).
 2. The app **scrapes and cleans the job content** using Playwright and BeautifulSoup.
@@ -15,13 +15,13 @@ This project is designed to help job seekers automatically generate personalized
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ![Architecture Flowchart](imgs/architecture.png)
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Component         | Technology Used                   |
 |------------------|------------------------------------|
@@ -35,7 +35,7 @@ This project is designed to help job seekers automatically generate personalized
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 git clone https://github.com/your-username/cold-email-generator.git
@@ -55,7 +55,7 @@ GROQ_API_KEY=your_groq_api_key_here
 streamlit run main.py
 
 
-🗃️ Project Portfolio Format
+Project Portfolio Format
 Your project data should be stored in app/resource/my_portfolio.csv with the following format:
 
 Project,Techstack,Description,Link
@@ -63,20 +63,20 @@ Project,Techstack,Description,Link
 "Food Delivery Analysis","Python, Pandas, Seaborn","Performed EDA on delivery data to uncover insights about delivery times and patterns.","https://github.com/Jem1D/Food_delivery_analysis"
 ...
 
-⚠️ Projects with missing or placeholder links ("#") will be excluded from the generated email.
+Projects with missing or placeholder links ("#") will be excluded from the generated email.
 
 
-✨ Features
+Features
 
-✅ Extracts real-time job data from live career pages
+Extracts real-time job data from live career pages
 
-✅ Uses your resume projects to generate relevant emails
+Uses your resume projects to generate relevant emails
 
-✅ Powered by Groq’s blazing-fast LLM and LangChain
+Powered by Groq’s blazing-fast LLM and LangChain
 
-✅ Filtered to exclude generic project links
+Filtered to exclude generic project links
 
-✅ Fully open-source and customizable
+Fully open-source and customizable
 
 📬 Contact
 📧 dhariajemil@gmail.com
